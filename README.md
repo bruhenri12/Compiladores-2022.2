@@ -15,14 +15,14 @@ Estando na pasta **/TaskXX/codigos/**
 ```
 javac RPNStacker.java
 ```
-Isso irá criar um arquivo chamado: **RPNStacker**
+Isso irá criar um arquivo chamado: **RPNStacker.class**
 
 Agora, iremos rodar o código em si:
 - Antes de tudo, já copie de antemão o caminho (path) do arquivo com a expressão que deseja avaliar.
 
 Ainda na pasta **/TaskXX/codigos/**
 ```
-java RPNStacker.class
+java RPNStacker
 ```
 Agora com o programa aberto, ele irá pedir o caminho do arquivo com a expressão que deseja avaliar.
 
