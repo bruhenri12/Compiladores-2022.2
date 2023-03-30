@@ -17,7 +17,8 @@ javac RPNStacker.java
 ```
 Isso irá criar um arquivo chamado: **RPNStacker.class**
 
-Agora, iremos rodar o código em si:
+## Rodando o programa
+
 - Antes de tudo, já copie de antemão o caminho (path) do arquivo com a expressão que deseja avaliar.
 
 Ainda na pasta **/TaskXX/codigos/**
