@@ -19,7 +19,7 @@ Isso irá criar um arquivo chamado: **RPNStacker.class**
 
 ## Rodando o programa
 
-- Antes de tudo, já copie de antemão o caminho (path) do arquivo com a expressão que deseja avaliar.
+- Antes de tudo, já copie de antemão o caminho (absoluto ou relativo) do arquivo com a expressão que deseja avaliar.
 
 Ainda na pasta **/TaskXX/codigos/**
 ```
