@@ -17,8 +17,8 @@ public class Regex {
     private static final Map<String, TokenType> MAP_REGEX = Map.ofEntries(
             Map.entry(REGEX_NUM, TokenType.NUM),
             Map.entry(REGEX_PLUS, TokenType.PLUS),
-            Map.entry(REGEX_MULT, TokenType.STAR),
             Map.entry(REGEX_MINUS, TokenType.MINUS),
+            Map.entry(REGEX_MULT, TokenType.STAR),
             Map.entry(REGEX_DIV, TokenType.SLASH)
     );
 
@@ -38,6 +38,9 @@ public class Regex {
     }
 
     public static boolean isOP(String token) {
-        return token.matches("([+\\-*/])");
+        return token.matches(REGEX_PLUS) || 
+                token.matches(REGEX_MINUS) || 
+                token.matches(REGEX_MULT) || 
+                token.matches(REGEX_DIV);
     }
 }
